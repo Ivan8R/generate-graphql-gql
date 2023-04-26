@@ -1,0 +1,35 @@
+{
+  "name": "generate-graphql-gql",
+  "version": "1.0.0",
+  "description": "Generate graphql gql files",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "generato-graphql-gql": "index.js",
+    "aglq": "index.js"
+  },
+  "author": {
+    "name": "Ivan8R",
+    "email": "cotedeazur@gmail.com"
+  },
+  "keywords": [
+    "generato-graphql-gql",
+    "Ivan8R"
+  ],
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "del": "^3.0.0",
+    "graphql": "^14.1.1",
+    "meow": "^9.0.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.2.0",
+    "querystringify": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^2.0.0",
+    "prettier": "^2.8.8"
+  }
+}
