@@ -1,6 +1,6 @@
 # generate-graphql-gql
 
-Generate queries from graphql schema, used for writing api test.
+Generate queries from graphql schema.
 
 ## Example
 
@@ -37,8 +37,9 @@ query user($id: Int!) {
 npm install -d generate-graphql-gql (not tested yet)
 
 # see the usage
-gqlg --help
+agql --help
 
 # Generate sample queries from schema file
-gqlg --schemaFilePath ./example/sampleTypeDef.graphql --destDirPath ./example/output --depthLimit 5
+agql -u 'url-to-schem'  -f "./example-folder-output/" -e "extension"
+agql -u https://graphql-demo.mead.io/ -f graph -e ts
 ```
