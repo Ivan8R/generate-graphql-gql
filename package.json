@@ -6,7 +6,7 @@
   "type": "module",
   "bin": {
     "generato-graphql-gql": "index.js",
-    "aglq": "index.js"
+    "agql": "index.js"
   },
   "author": {
     "name": "Ivan8R",
