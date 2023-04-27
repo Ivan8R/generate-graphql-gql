@@ -34,7 +34,7 @@ query user($id: Int!) {
 
 ```bash
 # Install
-npm install -d generate-graphql-gql (not tested yet)
+npm install -d https://github.com/Ivan8R/generate-graphql-gql.git
 
 # see the usage
 agql --help
